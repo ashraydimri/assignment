@@ -2,7 +2,7 @@
 PCAs<-function(a,b)
 {
   #library(mice)
-  inm<-data.frame( read.csv(a))
+  inm<-data.frame(read.csv(a))
   ing<-data.frame(read.csv(b))
   
   tr<-ing[,c(-1,-2)]
